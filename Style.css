@@ -1,0 +1,82 @@
+p{
+    color: black;
+    font-size: 25px;
+
+}
+/*ADDING COLOR , SIZE , ALIGNING AND FONT FOR HEADING 1 */
+h1{
+    color: darkslategrey;
+    font-size: 50px;
+    text-align: center;
+    font-family: Papyrus;
+}
+#page-title{
+    text-shadow: 4px 4px burlywood;
+}
+/*CHANGING FONT SIZE ONM HEADING 2*/
+h2{
+    font-size: 40px;
+}
+/*ADDING AN ID TO MY UNORDERED LIST*/
+ #Most-Favorite-Food{
+     background-color:black;
+     text-decoration: underline;
+ }
+/*ADDING  CLASS VALUES TO MY UNORDERED LIST*/
+ .Second-best-meal{
+     background-color: darkslategrey;
+ }
+body{
+    background-color: azure;
+    font-family:"Times New Roman";
+}
+li{
+
+    list-style-type:square;
+    padding: 3px;
+}
+a{
+    background-color: black;
+    color: azure;
+    font-size: 20px;
+
+}
+ul{
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+}
+.Section-header{
+    text-decoration: underline;
+}
+#Favorite-Movie-Title{
+
+    background-color: burlywood;
+}
+#Favorites-Music-name{
+    background-color:darksalmon;
+}
+.Favorite-Image{
+    border-image: round;
+    backdrop-filter: brightness(20);
+    mso-page-scale: 20;
+}
+.Favorite-Section{
+    background-color: beige;
+    border:3px darksalmon double;
+    margin: 10px;
+    padding: 15px;
+}
+table,tr,th,td{
+    border:1px white;
+    border-collapse:collapse;
+}
+th{
+    color: darkslategrey;
+    width:100px;
+    background-color: black;
+}
+td{
+    text-align:center;
+}
+
